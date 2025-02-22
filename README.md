@@ -50,3 +50,78 @@ Your balance: $1000
 
 This project is open-source and available for educational purposes.  
 
+
+
+
+### Task 2
+# Inventory Management System
+
+## Overview
+The **Inventory Management System** is a simple desktop application built using Python and Tkinter. It provides an easy-to-use graphical user interface (GUI) for managing inventory items, including adding, updating, removing, and displaying inventory records.
+
+## Features
+- **Add Items**: Enter item name and quantity to add an item to the inventory.
+- **Mark Essential Items**: Checkbox option to mark an item as essential.
+- **Update Items**: Modify the quantity of an existing item.
+- **Remove Items**: Delete an item from the inventory.
+- **Reset Inventory**: Clear all inventory records.
+- **Show Inventory**: Display all stored inventory records in a pop-up.
+- **Treeview Table**: Visual representation of inventory with sortable columns.
+
+## Technologies Used
+- **Python**: Core programming language.
+- **Tkinter**: GUI framework for creating the user interface.
+- **ttk (Themed Tkinter Widgets)**: Used for enhanced UI components.
+- **messagebox**: Provides alerts and notifications.
+
+## Installation & Setup
+### Prerequisites
+Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
+
+### Steps to Run
+1. Clone or download the project repository.
+2. Navigate to the project directory.
+3. Run the following command in the terminal or command prompt:
+   ```bash
+   python you.py
+   ```
+
+## How to Use
+1. **Add an Item**:
+   - Enter the item name in the "Item Name" field.
+   - Enter the quantity in the "Quantity" field.
+   - (Optional) Check the "Mark as Essential" box.
+   - Click the "Add Item" button.
+
+2. **Update an Item**:
+   - Select an item from the list.
+   - Modify the quantity in the input field.
+   - Click "Update Item."
+
+3. **Remove an Item**:
+   - Select an item from the list.
+   - Click "Remove Item."
+
+4. **View Inventory**:
+   - Click "Show Inventory" to display all items in a pop-up message.
+
+5. **Reset Inventory**:
+   - Click "Reset Inventory" to clear all stored items.
+
+## File Structure
+```
+Inventory Management System
+│── you.py  # Main application script
+│── README.md  # Documentation file
+```
+
+## Future Enhancements
+- Add database support (SQLite) for persistent data storage.
+- Implement search functionality.
+- Include filtering and sorting features for inventory items.
+- Export inventory data to CSV format.
+
+## License
+This project is open-source and free to use for educational purposes.
+
+
